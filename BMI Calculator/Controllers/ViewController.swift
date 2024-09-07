@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,6 +19,15 @@ class ViewController: UIViewController {
         
     }
 
-
+    @IBAction func heightSliderChange(_ sender: UISlider) {
+       print( String(format: "%.2f", sender.value))
+        
+        
+    }
+    
+    @IBAction func weightSliderChange(_ sender: UISlider) {
+        print(sender.value)
+    }
+    
 }
 
