@@ -48,6 +48,7 @@
 		7E604AB82C8E3D8B00D72C70 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7EB7E4402C9745580071E5CA /* BMI.swift */,
 				7E604AB92C8E3DA600D72C70 /* CalculatorBrain.swift */,
 			);
 			path = Models;
@@ -81,7 +82,6 @@
 				AD0B9F82230D61840065EFD9 /* Assets.xcassets */,
 				AD0B9F84230D61840065EFD9 /* LaunchScreen.storyboard */,
 				AD0B9F87230D61840065EFD9 /* Info.plist */,
-				7EB7E4402C9745580071E5CA /* BMI.swift */,
 			);
 			path = "BMI Calculator";
 			sourceTree = "<group>";
